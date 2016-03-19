@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_time_values">
+
+        <item>6</item>
+
+        <item>7</item>
+
+        <item>8</item>
+    </string-array>
+    <string-array name="pref_time_entries">
+        <item>6 AM</item>
+        <item>7 AM</item>
+        <item>8 AM</item>
+    </string-array>
+</resources>

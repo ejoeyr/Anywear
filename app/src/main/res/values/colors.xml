@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#78909c</color>
+    <color name="colorPrimaryDark">#607d8b</color>
+    <color name="colorAccent">#78909c</color>
+    <color name="color_item_folder">@android:color/white</color>
+    <color name="colorChecked">#78909c</color>
+</resources>

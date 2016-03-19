@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="General">
+
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:icon="@drawable/ic_image_photo"
+            android:key="@string/pref_fast_load"
+            android:summary="@string/string_power_consumption"
+            android:title="@string/string_fast_image" />
+
+        <Preference
+            android:icon="@drawable/ic_action_delete"
+            android:key="@string/pref_clear_cache"
+            android:summary="@string/string_deletes_cache"
+            android:title="@string/string_clear_cache" />
+
+
+        <Preference
+            android:icon="@drawable/ic_av_replay"
+            android:key="@string/pref_defaults"
+            android:summary="@string/string_restore_defaults"
+            android:title="@string/string_restore_defaults_title" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:icon="@drawable/ic_vibration_symbol"
+            android:key="@string/pref_vibration"
+            android:summary="@string/string_vibration_summary"
+            android:title="@string/string_vibration" />
+
+
+
+    </PreferenceCategory>
+    <!--<PreferenceCategory android:title="@string/string_app_lock">
+
+        <CheckBoxPreference
+            android:icon="@drawable/ic_action_https"
+            android:key="@string/pref_app_lock"
+            android:summary="@string/string_enable_disable"
+            android:title="@string/string_app_lock_title" />
+
+
+        <EditTextPreference
+            android:key="@string/pref_set_app_lock"
+            android:maxLength="12"
+            android:dialogTitle="@string/string_type_your_password"
+            android:singleLine="true"
+            android:summary="@string/string_type_your_password"
+            android:title="@string/string_set_up_password" />
+
+    </PreferenceCategory>
+-->
+    <PreferenceCategory android:title="@string/string_ootd_category">
+
+        <CheckBoxPreference
+            android:key="@string/pref_ootd_noti"
+            android:icon="@drawable/ic_device_access_alarm"
+            android:summary="@string/string_enable_disable_ootd"
+            android:title="@string/string_ootd_noti" />
+
+        <ListPreference
+            android:icon="@drawable/ic_action_toc"
+            android:entries="@array/pref_time_entries"
+            android:entryValues="@array/pref_time_values"
+            android:key="@string/pref_set_time"
+            android:defaultValue="7"
+            android:summary="@string/string_select_time"
+            android:title="@string/string_notification_time" />
+
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/string_rate_share_category">
+
+        <Preference
+            android:icon="@drawable/ic_toggle_star"
+            android:key="@string/pref_rate"
+            android:summary="Rate 5 stars!"
+            android:title="@string/string_rate" />
+
+        <Preference
+            android:icon="@drawable/ic_social_share"
+            android:key="@string/pref_share"
+            android:summary="Share with everyone!"
+            android:title="@string/string_share" />
+
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/string_extras">
+
+        <Preference
+            android:icon="@drawable/ic_action_bug_report"
+            android:key="@string/pref_bug"
+            android:title="@string/string_report_a_bug" />
+
+        <Preference
+            android:icon="@drawable/ic_social_people"
+            android:key="@string/pref_donate"
+            android:summary="@string/string_for_continued_dev"
+            android:title="@string/string_donate" />
+
+
+        <Preference
+            android:icon="@drawable/ic_action_help"
+            android:key="@string/pref_about"
+            android:summary="@string/string_about_app_and_dev"
+            android:title="@string/string_about" />
+
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
